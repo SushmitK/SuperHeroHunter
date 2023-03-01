@@ -17,7 +17,8 @@ searchInput.addEventListener("input",(e)=>{
 
 
 function handleMoreInfo(data){
-    let cardName = document.querySelectorAll(".cardName h3")
+    
+    let cardName = document.querySelectorAll(".cardName h4")
     let cardInfo = document.getElementById("cardInfo");
 
     cardName.forEach(element => {
@@ -66,6 +67,8 @@ function handleMoreInfo(data){
             });
         })
     });
+
+
 }
 
 

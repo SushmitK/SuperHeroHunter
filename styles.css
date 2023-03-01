@@ -558,6 +558,9 @@ a{
         height: 26px;
         font-size: 16px;
     }
+    .infoCard{
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 700px){
@@ -617,9 +620,22 @@ a{
     .card{
        width: 45%;
     }
+    .infoCard{
+        width: 90%;
+        flex-direction: column;
+    }
+    .cardInfoImg{
+        width: 60%;
+    }
+    .information{
+        width: 90%;
+    }
 }
 @media only screen and (max-width: 400px){
     .card{
         width: 70%;
      }
+     .information{
+        width: 100%;
+    }
 }
